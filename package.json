@@ -22,7 +22,7 @@
     "react-dom": "^16.8.3",
     "react-expand-animated": "^1.0.0",
     "react-lunr": "^0.5.0",
-    "react-markdown": "^4.0.4",
+    "react-markdown": "^4.3.1",
     "react-markdown-renderer": "^1.4.0",
     "react-redux": "^6.0.0",
     "recompose": "^0.30.0",
