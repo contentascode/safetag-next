@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "nodemon server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@zeit/next-less": "^1.0.1",
@@ -26,7 +28,8 @@
     "react-markdown-renderer": "^1.4.0",
     "react-redux": "^6.0.0",
     "recompose": "^0.30.0",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "snyk": "^1.316.1"
   },
   "license": "ISC",
   "devDependencies": {
@@ -43,5 +46,6 @@
     "prettier": "^1.15.3",
     "react-svg-loader": "^2.1.0",
     "redux-devtools-extension": "^2.13.8"
-  }
+  },
+  "snyk": true
 }
